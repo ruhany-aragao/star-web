@@ -1,0 +1,72 @@
+#test {
+    color: gray;
+  }
+   table {
+        border-collapse: collapse;
+        margin: 20px;
+        font-size: 16px;
+        width: 80%;
+        font-family: 'Titillium Web', sans-serif;
+        /* make column size adjustable to data siz*/
+        table-layout: auto;
+        /*make head row text alignt to left*/
+        
+      }
+      
+      th {
+        
+        padding: 10px;
+        text-align:right;
+      }
+  
+      td{ padding: 10px;
+        text-align:right;}
+      
+      th {
+        background-color: #102e46;
+        color: #f2f2f2;
+        
+      }
+      
+      .macro-strategy {
+        background-color: #f2f2f2;
+      }
+      
+      .sub-strategy {
+        background-color: #e6e6e6;
+  
+      }
+      
+      .hide {
+        display: none;
+       
+      }
+      .hidea {
+        display: none;
+       
+      }
+      
+      .toggle-btn {
+        font-size: 14px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        border: none;
+        background-color: #cccccc;
+        cursor: pointer;
+        border-radius:5px;
+      }
+  
+      .toggle-btns {
+        font-size: 14px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        border: none;
+        background-color: #cccccc;
+        cursor: pointer;
+        border-radius:5px;
+      }
+  
+      .table-first-column{
+        text-align:left}
