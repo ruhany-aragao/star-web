@@ -1,0 +1,55 @@
+.graph-container{
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 20px;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    height: 610px;
+    width: 980px;
+
+    display: inline-block;
+}
+body{
+    background-color: #102e46;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-family: Titillium Web, sans-serif;
+    
+}
+
+
+
+.header__logo-box{
+    background-color: #102e46;
+    text-align: left;;
+    position: fixed;
+    transition: 0.5s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 0.1);
+
+    display: block;
+}
+
+.heading-primary--main{
+    color: #f1f1f1;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 20px;
+}
+
+#tester{
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 20px;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    height: 610px;
+    width: 980px;
+    font-family:Titillium Web, sans-serif;
+
+    display: inline-block;
+}

@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mapa Crédito</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-2.18.0.min.js"></script>
+  </head>
+  <header class="header">
+    <div class="header__logo-box">
+      <img src="img/logo.png" alt="Logo" class="header__logo" />
+    </div>
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary--main">Mapa Crédito</span>
+        
+      </h1>
+    </div>
     
-</body>
+  <body>
+    <!--add background image to the body -->
+    <div class="graph-container">
+      <iframe
+        seamless frameborder="0" scrolling="no"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSE5ubeOsV1pG4EBKrkQTrE_5_F8npGL8X55I3-3RbFAiH6SlhDvUUtdwdA2WwCrkhkcphjDn9rO3Pq/pubchart?oid=750592048&format=interactive"
+        ></iframe>
+    </div>
+    <div class="graph-container">
+        <iframe
+        seamless frameborder="0" scrolling="no" 
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSE5ubeOsV1pG4EBKrkQTrE_5_F8npGL8X55I3-3RbFAiH6SlhDvUUtdwdA2WwCrkhkcphjDn9rO3Pq/pubchart?oid=819587192&format=interactive"
+          ></iframe>
+      </div>
+      <div id="tester" ></div>
+  </body>
+  <script src="js/script.js"></script>
 </html>
