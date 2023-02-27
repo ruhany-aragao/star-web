@@ -8,7 +8,7 @@
         width: 80%;
         font-family: 'Titillium Web', sans-serif;
         /* make column size adjustable to data siz*/
-        table-layout: auto;
+        table-layout: fixed;
         /*make head row text alignt to left*/
         
       }
