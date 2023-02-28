@@ -6,7 +6,6 @@
     border-radius: 10px;
     height: 610px;
     width: 980px;
-
     display: inline-block;
 }
 body{
@@ -23,12 +22,10 @@ iframe {
     
 }
 
-
-
 .header__logo-box{
     background-color: #102e46;
     text-align: left;;
-    position: fixed;
+
     transition: 0.5s;
     transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 0.1);
 
@@ -41,7 +38,7 @@ iframe {
     margin-top: 20px;
 }
 
-#tester{
+.grafico{
     background-color: #f1f1f1;
     padding: 10px;
     margin: 20px;
@@ -49,7 +46,38 @@ iframe {
     border-radius: 10px;
     height: 610px;
     width: 980px;
+    font-size: 12px;
     font-family:Titillium Web, sans-serif;
-
     display: inline-block;
+}
+
+#button-submit{
+    background-color: #102e46;
+    color: #f1f1f1;
+    font-family: 'Titillium Web', sans-serif;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 0.1);
+}
+select{
+    background-color:#f1f1f1 ;
+    color: 102e46;
+    font-family: 'Titillium Web', sans-serif;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 0.1);
 }
